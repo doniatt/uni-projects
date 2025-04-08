@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CarZone | CARS</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 13px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+}
+
+.navbar a{
+    color: #300f82;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s ease;
+}
+        
+.navbar a:hover{
+    color: #9f2424;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.cars{
+    color: #300f82;
+    padding: 20px;
+    text-align: center;
+        }
+
+.cars h1{
+    color: #9f2424;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons a{
+    text-decoration:  none;
+    color: #fff;
+    background-color: #300f82;    
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    transition: .3s ease;
+}  
+
+.buttons a:hover{
+    color: #fff;
+    background-color: #9f2424;
+}
+
+.footer{
+    color: #300f82;
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+}   
+</style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/logo.png" class="logo" alt="logo">
+        <a href="home.html">HOME</a>
+        <a href="cars.html">CARS</a>
+        <a href="contact us.html">CONTACT US</a>
+    </div>
+
+    <section class="cars">        
+        <h1>FEATURED CARS</h1>
+        <br>
+        <div>
+            <h3> Porsche 911 GT3 trubo S</h3>
+             <br> model 2024
+            <br> V8
+            <br> 512 hourse power 
+            <br>465 N.m
+            <br> full carbon fiber
+            
+            
+            <h4>Price:7,450.500 L.E</h4>
+            <a href="https://www.porsche.com/international/models/911/911-turbo-models/911-turbo-s/">
+            <img src="https://brixtonforged.com/wp-content/uploads/2022/11/brixton-forged-porsche-992-stinger-r11-rs-33.jpg" alt="Car Model 1" width="400">
+            </a>
+            <br>
+            <div class ="buttons">
+            <a href="#">Test Drive</a>
+            <a href="#">Purchase</a>
+            </div>
+            <br>
+            _________________
+            <br>
+            <br>
+        </div>
+        
+        <div>
+            <h3>Mercedes AMG GT black serise</h3>
+            <br> model 2024
+            <br> V8
+            <br>720 hourse power 
+            <br>800 N.m
+        
+            
+            <h4>Price: 345,000 $</h4>
+            <a href="https://www.mercedes-amg.com/en/world-of-amg/news/press-information/mercedes-amg-gt-black-series-record-lap.html">
+            <img src="https://car-images.bauersecure.com/wp-images/13039/amggtblack_050.jpg" alt="Car Model 2" width="400">
+            </a>
+            <br>
+            <div class ="buttons">
+            <a href="#">Test Drive</a>
+            <a href="#">Purchase</a>
+            </div>
+            <br>
+            _________________
+            <br>
+            <br>
+        </div>
+              
+        <div>
+            <h3>KIA Sportage </h3>
+            <br> model 2024
+           <br> V4
+            <br>180 hourse power 
+            <br>1600cc turbo
+            <br>265 N.m
+        
+            
+            <h4>Price: 1,900,000 L.E</h4>
+            <a href="https://www.kia.com/us/en/sportage">
+            <img src="  https://ar.wheelz.me/wp-content/uploads/2023/07/Kia-Sportage.webp " alt="Car Model 3" width="400">
+            </a>
+            <br>
+            <div class ="buttons">
+            <a href="#">Test Drive</a>
+            <a href="#">Purchase</a>
+            </div>
+            <br>
+            _________________
+            <br>
+            <br>
+        </div>
+              
+        <div> 
+            <h3>BMW m5 competition</h3>
+            <br> model 2024
+            <br> V8
+            <br>4400cc turbo
+            <br>625 hourse power 
+           <br>800 N.M
+            <h4>Price: 9,750,000 L.E</h4>
+            <a href="https://www.bmwusa.com/vehicles/m-models/m5-sedan/overview.iframe.html">
+            <img src="  https://www.motortrend.com/uploads/2022/10/2023-BMW-M5-exterior-8.jpg " alt="Car Model 4"
+            width="400">
+            </a>
+            <br>
+            <div class ="buttons">
+            <a href="#">Test Drive</a>
+            <a href="#">Purchase</a>
+            </div>
+            <br>
+            _________________
+            <br>
+            <br>
+        </div>
+        <!-- Add more cars as needed -->
+    </section>
+
+    <section class="footer">
+        <br>
+        <br>
+        <p>© 2023 CarZone. All rights reserved</p>
+    </section>    
+
+</body>
+</html>

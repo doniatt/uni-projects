@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CarZone | HOME</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 13px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+}
+
+.navbar a{
+    color: #300f82;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s ease;
+}
+        
+.navbar a:hover{
+    color: #9f2424;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.info span{
+    color: #9f2424;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: #300f82;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #300f82;
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background-color: #300f82;    
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    color: #fff;
+    background-color: #9f2424;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 51%;
+    right: 100px;
+    bottom: 0;
+}
+</style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/logo.png" class="logo" alt="logo">
+        <a href="home.html">HOME</a>
+        <a href="cars.html">CARS</a>
+        <a href="contact us.html">CONTACT US</a>
+    </div>
+
+    <div class="info">
+        <h3>welcome to</h3>
+        <h1><span>CAR</span>ZONE</h1>
+        <h3>Here you will find <span>your desired car.</span></h3>
+        <a href="cars.html">GO TO THE SHOP  ></a>
+    </div>
+
+    <div class="image">
+        <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2015/11/Audi-S6.jpg?resize=980:*" alt="car image" width="600" height="350">
+    </div>
+
+</body>
+</html> 
